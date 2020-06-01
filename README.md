@@ -2,11 +2,15 @@
 
 ## Installation
 
-- Install `fastapi` &amp; `uvicorn`
+- Install dependencies:
 
 ```bash
-pip install fastapi
-pip install uvicorn
+pip install -r requirements.txt
 ```
 
+## Running
+
+```bash
+uvicorn run:app --reload
+```
 
